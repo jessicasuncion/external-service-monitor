@@ -1,0 +1,21 @@
+{
+    "name": "External Services Monitor",
+    "refreshRate": 7000,
+    "services": [
+        {
+            "id": 1,
+            "name": "Weather",
+            "endpoint": "http://www.mocky.io/v2/5185415ba171ea3a00704eed"
+        },
+        {
+            "id": 2,
+            "name": "NBA",
+            "endpoint": "http://www.mocky.io/v2/5d27ade0320000682a71bc46"
+        }, 
+        {
+            "id": 3,
+            "name": "Food",
+            "endpoint": "http://www.mocky.io/v2/5d2bd9c031000028005822ab?mocky-delay=500ms"
+        }
+    ]
+}
